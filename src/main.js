@@ -3,19 +3,19 @@ const gameEngine = new GameEngine();
 const ASSET_MANAGER = new AssetManager();
 
 // TODO - is path specified correctly?
-ASSET_MANAGER.queueDownload("../res/Starship.png");
-ASSET_MANAGER.queueDownload("../res/alien-left.png");
-ASSET_MANAGER.queueDownload("../res/alien-right.png");
-ASSET_MANAGER.queueDownload("../res/MarsGround.png");
-ASSET_MANAGER.queueDownload("../res/chutulu.png");
-ASSET_MANAGER.queueDownload("../res/astronaut/astronaut-left.png");
-ASSET_MANAGER.queueDownload("../res/astronaut/astronaut-right.png");
-ASSET_MANAGER.queueDownload("../res/astronaut/astronautUpRightDir.png");
-ASSET_MANAGER.queueDownload("../res/astronaut/astronautUpLeftDir.png");
-ASSET_MANAGER.queueDownload("../res/astronaut/astronautDownRight.png");
-ASSET_MANAGER.queueDownload("../res/astronaut/astronautDownLeft.png");
-ASSET_MANAGER.queueDownload("../res/astronaut/astronautUpRight.png");
-ASSET_MANAGER.queueDownload("../res/astronaut/astronautUpLeft.png");
+ASSET_MANAGER.queueDownload("./res/Starship.png");
+ASSET_MANAGER.queueDownload("./res/alien-left.png");
+ASSET_MANAGER.queueDownload("./res/alien-right.png");
+ASSET_MANAGER.queueDownload("./res/MarsGround.png");
+ASSET_MANAGER.queueDownload("./res/chutulu.png");
+ASSET_MANAGER.queueDownload("./res/astronaut/astronaut-left.png");
+ASSET_MANAGER.queueDownload("./res/astronaut/astronaut-right.png");
+ASSET_MANAGER.queueDownload("./res/astronaut/astronautUpRightDir.png");
+ASSET_MANAGER.queueDownload("./res/astronaut/astronautUpLeftDir.png");
+ASSET_MANAGER.queueDownload("./res/astronaut/astronautDownRight.png");
+ASSET_MANAGER.queueDownload("./res/astronaut/astronautDownLeft.png");
+ASSET_MANAGER.queueDownload("./res/astronaut/astronautUpRight.png");
+ASSET_MANAGER.queueDownload("./res/astronaut/astronautUpLeft.png");
 
 
 
